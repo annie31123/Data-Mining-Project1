@@ -45,7 +45,7 @@ data/pat.ntrans_5.tlen_10.nitems_0.02
 python3 apriori.py [data_type] [min_support] [min_confidence]
 ```
 * [data_type] = 0 --> 使用 Kaggle dataset
-    [data_type] = 1 --> 使用 IBM quest data
+* [data_type] = 1 --> 使用 IBM quest data
 * [min_support] 和 [min_confidence] 的值都介於0~1
 
 #### 執行結果：
@@ -70,7 +70,7 @@ python3 apriori.py [data_type] [min_support] [min_confidence]
 python3 fp_growth.py [data_type] [min_support] [min_confidence]
 ```
 * [data_type] = 0 --> 使用 Kaggle dataset
-    [data_type] = 1 --> 使用 IBM quest data
+* [data_type] = 1 --> 使用 IBM quest data
 * [min_support] 和 [min_confidence] 的值都介於0~1
 
 #### 執行結果：
