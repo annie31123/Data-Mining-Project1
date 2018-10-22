@@ -8,7 +8,17 @@
 * 將結果與 SPMF ( an open-source data  mining library ) 作比較
 
 ## 目錄
-> [TOC]
+
+* [Dataset](#Dataset)
+* [Setup](#Setup)
+* [Run Process](#Run-Process)
+    * [Apriori](#Apriori)
+    * [FP-growth](#FP-growth)
+    * [產生 Kaggle dataset 的 arff 檔](#產生-Kaggle-dataset-的-arff-檔)
+* [比較＆結論：](#比較＆結論：)
+    * [[比較1] 在同個演算法下](#[比較1]-在同個演算法下h)
+    * [[比較2] 在同個 dataSet 下](#[比較2]-在同個-dataSet-下)
+    * [[比較3] 在不同min_support / confidence下](#[比較3]-在不-min_support-/-confidence下)
 
 ## Dataset
 #### Kaggle dataset: [mushrooms](https://www.kaggle.com/uciml/mushroom-classification)
